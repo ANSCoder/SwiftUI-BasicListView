@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17B831782353632100AC5117 /* SwiftUI-BasicTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-BasicTableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B831782353632100AC5117 /* SwiftUI-BasicListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-BasicListView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B8317B2353632100AC5117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17B8317D2353632100AC5117 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		17B8317F2353632100AC5117 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		17B8316F2353632100AC5117 = {
 			isa = PBXGroup;
 			children = (
-				17B8317A2353632100AC5117 /* SwiftUI-BasicTableView */,
+				17B8317A2353632100AC5117 /* SwiftUI-BasicListView */,
 				17B831792353632100AC5117 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		17B831792353632100AC5117 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17B831782353632100AC5117 /* SwiftUI-BasicTableView.app */,
+				17B831782353632100AC5117 /* SwiftUI-BasicListView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		17B8317A2353632100AC5117 /* SwiftUI-BasicTableView */ = {
+		17B8317A2353632100AC5117 /* SwiftUI-BasicListView */ = {
 			isa = PBXGroup;
 			children = (
 				17B831922353964D00AC5117 /* View */,
@@ -70,7 +70,7 @@
 				17B831892353632200AC5117 /* Info.plist */,
 				17B831832353632200AC5117 /* Preview Content */,
 			);
-			path = "SwiftUI-BasicTableView";
+			path = "SwiftUI-BasicListView";
 			sourceTree = "<group>";
 		};
 		17B831832353632200AC5117 /* Preview Content */ = {
@@ -100,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17B831772353632100AC5117 /* SwiftUI-BasicTableView */ = {
+		17B831772353632100AC5117 /* SwiftUI-BasicListView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17B8318C2353632200AC5117 /* Build configuration list for PBXNativeTarget "SwiftUI-BasicTableView" */;
+			buildConfigurationList = 17B8318C2353632200AC5117 /* Build configuration list for PBXNativeTarget "SwiftUI-BasicListView" */;
 			buildPhases = (
 				17B831742353632100AC5117 /* Sources */,
 				17B831752353632100AC5117 /* Frameworks */,
@@ -112,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUI-BasicTableView";
+			name = "SwiftUI-BasicListView";
 			productName = "SwiftUI-BasicTableView";
-			productReference = 17B831782353632100AC5117 /* SwiftUI-BasicTableView.app */;
+			productReference = 17B831782353632100AC5117 /* SwiftUI-BasicListView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 17B831732353632100AC5117 /* Build configuration list for PBXProject "SwiftUI-BasicTableView" */;
+			buildConfigurationList = 17B831732353632100AC5117 /* Build configuration list for PBXProject "SwiftUI-BasicListView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17B831772353632100AC5117 /* SwiftUI-BasicTableView */,
+				17B831772353632100AC5117 /* SwiftUI-BasicListView */,
 			);
 		};
 /* End PBXProject section */
@@ -317,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anscoder.SwiftUI-BasicTableView";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "SwiftUI-BasicListView";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -336,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anscoder.SwiftUI-BasicTableView";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "SwiftUI-BasicListView";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17B831732353632100AC5117 /* Build configuration list for PBXProject "SwiftUI-BasicTableView" */ = {
+		17B831732353632100AC5117 /* Build configuration list for PBXProject "SwiftUI-BasicListView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17B8318A2353632200AC5117 /* Debug */,
@@ -354,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17B8318C2353632200AC5117 /* Build configuration list for PBXNativeTarget "SwiftUI-BasicTableView" */ = {
+		17B8318C2353632200AC5117 /* Build configuration list for PBXNativeTarget "SwiftUI-BasicListView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17B8318D2353632200AC5117 /* Debug */,

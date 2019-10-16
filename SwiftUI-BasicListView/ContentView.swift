@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  SwiftUI-BasicTableView
+//  SwiftUI-BasicListView
 //
 //  Created by Anand Nimje on 13/10/19.
 //  Copyright © 2019 Anand. All rights reserved.
